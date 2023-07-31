@@ -1,0 +1,15 @@
+###
+POST http://localhost:9000/api/producto HTTP/1.1
+Content-Type: : application/json
+
+{
+    "nombre": "Laptop",
+    "descripcion": "Eccelente escuela",
+    "precio": 11000,
+    "imagenes":  [],
+    "categoria": "Computadoras",
+    "propiedades": {}
+}
+
+###
+GET http://localhost:9000/api/producto/64c56a1a563abc3bb92f9163 HTTP/1.1
